@@ -35,7 +35,7 @@ int main() {
     int ch;
 
     /* 3. Open this source file itself */
-    FILE *fp = fopen("lab1.c", "r"); 
+    FILE *fp = fopen("main.c", "r"); 
     if (fp == NULL) {
         return 1;
     }
